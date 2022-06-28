@@ -1,0 +1,83 @@
+/* jogo inicial */
+  .sublinhado{
+    display:flex;
+  }
+  .desenharLinhas{
+    border-bottom: solid 4px #0A3871;
+    width: 30px;
+    margin: 10px;
+  }
+  .esconderLetra{
+    display: none;
+    font-size: 18px;
+  }
+  
+  .btn-iniciar {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 24px;
+    
+    position: absolute;
+    width: 300px;
+    height: 80px;
+    left: 0;
+    top: 20rem;
+      
+    background: green;
+    border-radius: 24px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 22px;
+    display: flex;
+    justify-content: center;
+    color: #FFFFFF;
+  }
+  
+  .btn-palavra{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 24px;
+    position: absolute;
+    width: 280px;
+    height: 67px;
+    left: 1.2rem;
+    top: 28rem; 
+    border: 1px solid #0A3871;
+    box-sizing: border-box;
+    border-radius: 24px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    display: flex;
+    justify-content: center;
+    color: #0A3871;
+    }
+  
+    .text-input {
+      position: absolute;
+      width: 600px;
+      height: auto;
+      left: 1.5rem;
+      top: 200px;
+    
+      font-style: normal;
+      font-weight: 600;
+      font-size: 32px;
+      line-height: 150%;
+      justify-content: baseline;
+    
+      color: #0A3871;
+      background: transparent;
+      border: none;
+      text-transform:uppercase;
+      }
+    ::placeholder { color: #0A3871; text-transform:lowercase;}
+    
+    .text-input:focus { 
+        border: none;
+        outline: none;
+       }

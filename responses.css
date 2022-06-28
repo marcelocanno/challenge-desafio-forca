@@ -1,0 +1,105 @@
+/* responses */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    body{
+      min-width: 375px;
+      min-height: 667px;
+    }
+    .logo{
+      left: 4.27%;
+      right: 87.2%;
+      top: 25px;
+      bottom: 25px;
+      width: 50px;
+      height: 50px;
+    } 
+    .botoes-home{
+      top: 16rem;
+      left: 4.2rem;
+    }
+    .btn-palavra{
+      width: 200px;
+      height: 57px;
+      left: 1rem;
+      top: 6.5rem;
+      font-size: 16px;
+      line-height: 0px;
+    }
+    .btn-iniciar{
+    width: 230px;
+    height: 90px;
+    left: 0;
+    top: 0;
+    font-size: 18px;
+    line-height: 10px;
+    }
+    .btn-azul{
+      width: 300px;
+      height: 57px;
+      left: 0;
+      top: 450px;
+      font-size: 18px;
+      line-height: 20px;    
+    }
+    .btn-branco{
+      width: 300px;
+      height: 57px;
+      left: 0;
+      top: 480px;
+      font-size: 18px;
+      line-height: 20px;    
+    }
+    label {
+      width: 200px;
+      height: 18px;
+      left: 16px;
+      top: 451px;
+      font-size:18px;
+      padding-left: 2.5rem;
+     }
+     .form-group{
+      left: 16px;
+      top: 451px;
+     }
+     .botoes-div{ 
+      flex-wrap: wrap; 
+      width: 343px;
+      height: 158px;
+      left: 0;
+      top: 30rem;    
+     }
+     .text-input { 
+      width: 343px;
+      height: auto;
+      left: 16px;
+      top: 152px;
+      font-size:32px;
+      line-height: 150%;
+      }
+      .palavra-nova{
+        top:0.4rem;
+        left: 0.1rem;
+      }
+       .img-alerta{
+        left: 1rem;
+        right: 0%;
+        top: 0%;
+        bottom: 0%;   
+      }
+      .canvas{
+        margin-left: 2.5rem;
+        width: 1024px;
+        height:800px
+      }
+      .botoes-div-canvas{
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+      
+        position: absolute;
+        width: 680px;
+        height: 67px;
+        left: 28.5rem;
+        top: 760px;
+        margin-bottom: 25px;
+       }
+   }

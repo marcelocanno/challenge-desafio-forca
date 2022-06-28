@@ -1,0 +1,29 @@
+/* canvas */
+  .canvas{
+    margin-left: 2.5rem;
+    width: 1024px;
+    height:800px
+  }
+  .botoes-div-canvas{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+  
+    position: absolute;
+    width: 680px;
+    height: 67px;
+    left: 28.5rem;
+    top: 760px;
+    margin-bottom: 25px;
+   }
+   .botoes-home{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: absolute;
+    left:42rem;
+   }
+   .palavra-nova{
+    position: absolute;
+    left: 30rem;
+   }
